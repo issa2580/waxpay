@@ -1,0 +1,1360 @@
+[
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "transaction",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "uuid",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uuid",
+        "description": "uuid",
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AbstractBaseUser",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "BaseUserManager",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "PermissionsMixin",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "generics",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "generics",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "permissions",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "validate_password",
+        "importPath": "django.contrib.auth.password_validation",
+        "description": "django.contrib.auth.password_validation",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.password_validation",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "TokenRefreshView",
+        "importPath": "rest_framework_simplejwt.views",
+        "description": "rest_framework_simplejwt.views",
+        "isExtraImport": true,
+        "detail": "rest_framework_simplejwt.views",
+        "documentation": {}
+    },
+    {
+        "label": "APIView",
+        "importPath": "rest_framework.views",
+        "description": "rest_framework.views",
+        "isExtraImport": true,
+        "detail": "rest_framework.views",
+        "documentation": {}
+    },
+    {
+        "label": "APIView",
+        "importPath": "rest_framework.views",
+        "description": "rest_framework.views",
+        "isExtraImport": true,
+        "detail": "rest_framework.views",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "AllowAny",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "IsAuthenticated",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "IsAuthenticated",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "AllowAny",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "IsAuthenticated",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "RefreshToken",
+        "importPath": "rest_framework_simplejwt.tokens",
+        "description": "rest_framework_simplejwt.tokens",
+        "isExtraImport": true,
+        "detail": "rest_framework_simplejwt.tokens",
+        "documentation": {}
+    },
+    {
+        "label": "authenticate",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "django.utils",
+        "description": "django.utils",
+        "isExtraImport": true,
+        "detail": "django.utils",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "django.utils",
+        "description": "django.utils",
+        "isExtraImport": true,
+        "detail": "django.utils",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "hashlib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "hashlib",
+        "description": "hashlib",
+        "detail": "hashlib",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "api_view",
+        "importPath": "rest_framework.decorators",
+        "description": "rest_framework.decorators",
+        "isExtraImport": true,
+        "detail": "rest_framework.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "permission_classes",
+        "importPath": "rest_framework.decorators",
+        "description": "rest_framework.decorators",
+        "isExtraImport": true,
+        "detail": "rest_framework.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "csrf_exempt",
+        "importPath": "django.views.decorators.csrf",
+        "description": "django.views.decorators.csrf",
+        "isExtraImport": true,
+        "detail": "django.views.decorators.csrf",
+        "documentation": {}
+    },
+    {
+        "label": "Decimal",
+        "importPath": "decimal",
+        "description": "decimal",
+        "isExtraImport": true,
+        "detail": "decimal",
+        "documentation": {}
+    },
+    {
+        "label": "Transaction",
+        "importPath": "transactions.models",
+        "description": "transactions.models",
+        "isExtraImport": true,
+        "detail": "transactions.models",
+        "documentation": {}
+    },
+    {
+        "label": "Wallet",
+        "importPath": "accounts.models",
+        "description": "accounts.models",
+        "isExtraImport": true,
+        "detail": "accounts.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "accounts.models",
+        "description": "accounts.models",
+        "isExtraImport": true,
+        "detail": "accounts.models",
+        "documentation": {}
+    },
+    {
+        "label": "Sum",
+        "importPath": "django.db.models",
+        "description": "django.db.models",
+        "isExtraImport": true,
+        "detail": "django.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "Count",
+        "importPath": "django.db.models",
+        "description": "django.db.models",
+        "isExtraImport": true,
+        "detail": "django.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "Q",
+        "importPath": "django.db.models",
+        "description": "django.db.models",
+        "isExtraImport": true,
+        "detail": "django.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "TruncDate",
+        "importPath": "django.db.models.functions",
+        "description": "django.db.models.functions",
+        "isExtraImport": true,
+        "detail": "django.db.models.functions",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "get_schema_view",
+        "importPath": "drf_yasg.views",
+        "description": "drf_yasg.views",
+        "isExtraImport": true,
+        "detail": "drf_yasg.views",
+        "documentation": {}
+    },
+    {
+        "label": "openapi",
+        "importPath": "drf_yasg",
+        "description": "drf_yasg",
+        "isExtraImport": true,
+        "detail": "drf_yasg",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "waxipay-backend.accounts.migrations.0001_initial",
+        "description": "waxipay-backend.accounts.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        ('auth', '0012_alter_user_first_name_max_length'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='User',\n            fields=[\n                ('password', models.CharField(max_length=128, verbose_name='password')),",
+        "detail": "waxipay-backend.accounts.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "AccountsConfig",
+        "kind": 6,
+        "importPath": "waxipay-backend.accounts.apps",
+        "description": "waxipay-backend.accounts.apps",
+        "peekOfCode": "class AccountsConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'accounts'",
+        "detail": "waxipay-backend.accounts.apps",
+        "documentation": {}
+    },
+    {
+        "label": "UserManager",
+        "kind": 6,
+        "importPath": "waxipay-backend.accounts.models",
+        "description": "waxipay-backend.accounts.models",
+        "peekOfCode": "class UserManager(BaseUserManager):\n    def create_user(self, phone_number, email=None, password=None, **extra_fields):\n        if not phone_number:\n            raise ValueError('Le numéro de téléphone est obligatoire')\n        email = self.normalize_email(email) if email else None\n        user = self.model(phone_number=phone_number, email=email, **extra_fields)\n        user.set_password(password)\n        user.save(using=self._db)\n        return user\n    def create_superuser(self, phone_number, email=None, password=None, **extra_fields):",
+        "detail": "waxipay-backend.accounts.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "waxipay-backend.accounts.models",
+        "description": "waxipay-backend.accounts.models",
+        "peekOfCode": "class User(AbstractBaseUser, PermissionsMixin):\n    USER_TYPES = [\n        ('driver', 'Chauffeur'),\n        ('merchant', 'Commerçant'),\n        ('deliverer', 'Livreur'),\n        ('individual', 'Particulier'),\n    ]\n    id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)\n    phone_number = models.CharField(max_length=20, unique=True)\n    email = models.EmailField(unique=True, null=True, blank=True)",
+        "detail": "waxipay-backend.accounts.models",
+        "documentation": {}
+    },
+    {
+        "label": "Wallet",
+        "kind": 6,
+        "importPath": "waxipay-backend.accounts.models",
+        "description": "waxipay-backend.accounts.models",
+        "peekOfCode": "class Wallet(models.Model):\n    id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)\n    user = models.OneToOneField(User, on_delete=models.CASCADE, related_name='wallet')\n    balance = models.DecimalField(max_digits=15, decimal_places=2, default=0.00)\n    currency = models.CharField(max_length=3, default='XOF')\n    is_active = models.BooleanField(default=True)\n    created_at = models.DateTimeField(auto_now_add=True)\n    updated_at = models.DateTimeField(auto_now=True)\n    class Meta:\n        db_table = 'wallets'",
+        "detail": "waxipay-backend.accounts.models",
+        "documentation": {}
+    },
+    {
+        "label": "OTP",
+        "kind": 6,
+        "importPath": "waxipay-backend.accounts.models",
+        "description": "waxipay-backend.accounts.models",
+        "peekOfCode": "class OTP(models.Model):\n    user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='otps')\n    code = models.CharField(max_length=6)\n    is_used = models.BooleanField(default=False)\n    expires_at = models.DateTimeField()\n    created_at = models.DateTimeField(auto_now_add=True)\n    class Meta:\n        db_table = 'otps'\n        ordering = ['-created_at']\n        verbose_name = 'Code OTP'",
+        "detail": "waxipay-backend.accounts.models",
+        "documentation": {}
+    },
+    {
+        "label": "WalletSerializer",
+        "kind": 6,
+        "importPath": "waxipay-backend.accounts.serializers",
+        "description": "waxipay-backend.accounts.serializers",
+        "peekOfCode": "class WalletSerializer(serializers.ModelSerializer):\n    balance_formatted = serializers.SerializerMethodField()\n    class Meta:\n        model = Wallet\n        fields = ['id', 'balance', 'balance_formatted', 'currency', 'is_active', 'created_at']\n        read_only_fields = ['id', 'balance', 'created_at']\n    def get_balance_formatted(self, obj):\n        return f\"{obj.balance:,.0f}\".replace(',', ' ')\nclass UserSerializer(serializers.ModelSerializer):\n    wallet = WalletSerializer(read_only=True)",
+        "detail": "waxipay-backend.accounts.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "UserSerializer",
+        "kind": 6,
+        "importPath": "waxipay-backend.accounts.serializers",
+        "description": "waxipay-backend.accounts.serializers",
+        "peekOfCode": "class UserSerializer(serializers.ModelSerializer):\n    wallet = WalletSerializer(read_only=True)\n    class Meta:\n        model = User\n        fields = ['id', 'phone_number', 'email', 'full_name', 'user_type', \n                  'is_verified', 'wallet', 'created_at']\n        read_only_fields = ['id', 'is_verified', 'created_at']\nclass RegisterSerializer(serializers.ModelSerializer):\n    password = serializers.CharField(write_only=True, required=True, validators=[validate_password])\n    password_confirm = serializers.CharField(write_only=True, required=True)",
+        "detail": "waxipay-backend.accounts.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterSerializer",
+        "kind": 6,
+        "importPath": "waxipay-backend.accounts.serializers",
+        "description": "waxipay-backend.accounts.serializers",
+        "peekOfCode": "class RegisterSerializer(serializers.ModelSerializer):\n    password = serializers.CharField(write_only=True, required=True, validators=[validate_password])\n    password_confirm = serializers.CharField(write_only=True, required=True)\n    class Meta:\n        model = User\n        fields = ['phone_number', 'email', 'full_name', 'user_type', 'password', 'password_confirm']\n    def validate(self, attrs):\n        if attrs['password'] != attrs['password_confirm']:\n            raise serializers.ValidationError({\"password\": \"Les mots de passe ne correspondent pas.\"})\n        return attrs",
+        "detail": "waxipay-backend.accounts.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "app_name",
+        "kind": 5,
+        "importPath": "waxipay-backend.accounts.urls",
+        "description": "waxipay-backend.accounts.urls",
+        "peekOfCode": "app_name = 'accounts'\nurlpatterns = [\n    path('register/', views.RegisterView.as_view(), name='register'),\n    path('login/', views.LoginView.as_view(), name='login'),\n    path('logout/', views.LogoutView.as_view(), name='logout'),\n    path('token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),\n    path('profile/', views.ProfileView.as_view(), name='profile'),\n    path('wallet/', views.WalletView.as_view(), name='wallet'),\n    path('send-otp/', views.SendOTPView.as_view(), name='send-otp'),\n    path('verify-otp/', views.VerifyOTPView.as_view(), name='verify-otp'),",
+        "detail": "waxipay-backend.accounts.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "waxipay-backend.accounts.urls",
+        "description": "waxipay-backend.accounts.urls",
+        "peekOfCode": "urlpatterns = [\n    path('register/', views.RegisterView.as_view(), name='register'),\n    path('login/', views.LoginView.as_view(), name='login'),\n    path('logout/', views.LogoutView.as_view(), name='logout'),\n    path('token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),\n    path('profile/', views.ProfileView.as_view(), name='profile'),\n    path('wallet/', views.WalletView.as_view(), name='wallet'),\n    path('send-otp/', views.SendOTPView.as_view(), name='send-otp'),\n    path('verify-otp/', views.VerifyOTPView.as_view(), name='verify-otp'),\n]",
+        "detail": "waxipay-backend.accounts.urls",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterView",
+        "kind": 6,
+        "importPath": "waxipay-backend.accounts.views",
+        "description": "waxipay-backend.accounts.views",
+        "peekOfCode": "class RegisterView(generics.CreateAPIView):\n    \"\"\"Inscription d'un nouvel utilisateur\"\"\"\n    queryset = User.objects.all()\n    permission_classes = [AllowAny]\n    serializer_class = RegisterSerializer\n    def create(self, request, *args, **kwargs):\n        serializer = self.get_serializer(data=request.data)\n        serializer.is_valid(raise_exception=True)\n        user = serializer.save()\n        refresh = RefreshToken.for_user(user)",
+        "detail": "waxipay-backend.accounts.views",
+        "documentation": {}
+    },
+    {
+        "label": "LoginView",
+        "kind": 6,
+        "importPath": "waxipay-backend.accounts.views",
+        "description": "waxipay-backend.accounts.views",
+        "peekOfCode": "class LoginView(APIView):\n    \"\"\"Connexion utilisateur\"\"\"\n    permission_classes = [AllowAny]\n    def post(self, request):\n        phone_number = request.data.get('phone_number')\n        password = request.data.get('password')\n        if not phone_number or not password:\n            return Response(\n                {\n                    'success': False,",
+        "detail": "waxipay-backend.accounts.views",
+        "documentation": {}
+    },
+    {
+        "label": "LogoutView",
+        "kind": 6,
+        "importPath": "waxipay-backend.accounts.views",
+        "description": "waxipay-backend.accounts.views",
+        "peekOfCode": "class LogoutView(APIView):\n    \"\"\"Déconnexion utilisateur\"\"\"\n    permission_classes = [IsAuthenticated]\n    def post(self, request):\n        try:\n            refresh_token = request.data.get(\"refresh\")\n            token = RefreshToken(refresh_token)\n            token.blacklist()\n            return Response({\n                'success': True,",
+        "detail": "waxipay-backend.accounts.views",
+        "documentation": {}
+    },
+    {
+        "label": "ProfileView",
+        "kind": 6,
+        "importPath": "waxipay-backend.accounts.views",
+        "description": "waxipay-backend.accounts.views",
+        "peekOfCode": "class ProfileView(generics.RetrieveUpdateAPIView):\n    \"\"\"Récupérer et mettre à jour le profil utilisateur\"\"\"\n    permission_classes = [IsAuthenticated]\n    serializer_class = UserSerializer\n    def get_object(self):\n        return self.request.user\nclass WalletView(generics.RetrieveAPIView):\n    \"\"\"Récupérer le portefeuille de l'utilisateur\"\"\"\n    permission_classes = [IsAuthenticated]\n    serializer_class = WalletSerializer",
+        "detail": "waxipay-backend.accounts.views",
+        "documentation": {}
+    },
+    {
+        "label": "WalletView",
+        "kind": 6,
+        "importPath": "waxipay-backend.accounts.views",
+        "description": "waxipay-backend.accounts.views",
+        "peekOfCode": "class WalletView(generics.RetrieveAPIView):\n    \"\"\"Récupérer le portefeuille de l'utilisateur\"\"\"\n    permission_classes = [IsAuthenticated]\n    serializer_class = WalletSerializer\n    def get_object(self):\n        return self.request.user.wallet\nclass SendOTPView(APIView):\n    \"\"\"Envoyer un code OTP\"\"\"\n    permission_classes = [AllowAny]\n    def post(self, request):",
+        "detail": "waxipay-backend.accounts.views",
+        "documentation": {}
+    },
+    {
+        "label": "SendOTPView",
+        "kind": 6,
+        "importPath": "waxipay-backend.accounts.views",
+        "description": "waxipay-backend.accounts.views",
+        "peekOfCode": "class SendOTPView(APIView):\n    \"\"\"Envoyer un code OTP\"\"\"\n    permission_classes = [AllowAny]\n    def post(self, request):\n        phone_number = request.data.get('phone_number')\n        if not phone_number:\n            return Response(\n                {'success': False, 'error': 'Numéro de téléphone requis'},\n                status=status.HTTP_400_BAD_REQUEST\n            )",
+        "detail": "waxipay-backend.accounts.views",
+        "documentation": {}
+    },
+    {
+        "label": "VerifyOTPView",
+        "kind": 6,
+        "importPath": "waxipay-backend.accounts.views",
+        "description": "waxipay-backend.accounts.views",
+        "peekOfCode": "class VerifyOTPView(APIView):\n    \"\"\"Vérifier un code OTP\"\"\"\n    permission_classes = [AllowAny]\n    def post(self, request):\n        phone_number = request.data.get('phone_number')\n        code = request.data.get('code')\n        if not phone_number or not code:\n            return Response(\n                {'success': False, 'error': 'Tous les champs sont requis'},\n                status=status.HTTP_400_BAD_REQUEST",
+        "detail": "waxipay-backend.accounts.views",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "waxipay-backend.accounts.views",
+        "description": "waxipay-backend.accounts.views",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nclass RegisterView(generics.CreateAPIView):\n    \"\"\"Inscription d'un nouvel utilisateur\"\"\"\n    queryset = User.objects.all()\n    permission_classes = [AllowAny]\n    serializer_class = RegisterSerializer\n    def create(self, request, *args, **kwargs):\n        serializer = self.get_serializer(data=request.data)\n        serializer.is_valid(raise_exception=True)\n        user = serializer.save()",
+        "detail": "waxipay-backend.accounts.views",
+        "documentation": {}
+    },
+    {
+        "label": "PaymentsConfig",
+        "kind": 6,
+        "importPath": "waxipay-backend.payments.apps",
+        "description": "waxipay-backend.payments.apps",
+        "peekOfCode": "class PaymentsConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'payments'",
+        "detail": "waxipay-backend.payments.apps",
+        "documentation": {}
+    },
+    {
+        "label": "PaytechService",
+        "kind": 6,
+        "importPath": "waxipay-backend.payments.paytek_service",
+        "description": "waxipay-backend.payments.paytek_service",
+        "peekOfCode": "class PaytechService:\n    BASE_URL = 'https://paytech.sn/api'\n    @staticmethod\n    def request_payment(item_name, item_price, ref_command, custom_field, payment_method, user):\n        if custom_field is None:\n            custom_field = {}\n        url = f'{PaytechService.BASE_URL}/payment/request-payment'\n        try:\n            response = requests.post(\n                url,",
+        "detail": "waxipay-backend.payments.paytek_service",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "waxipay-backend.payments.paytek_service",
+        "description": "waxipay-backend.payments.paytek_service",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nclass PaytechService:\n    BASE_URL = 'https://paytech.sn/api'\n    @staticmethod\n    def request_payment(item_name, item_price, ref_command, custom_field, payment_method, user):\n        if custom_field is None:\n            custom_field = {}\n        url = f'{PaytechService.BASE_URL}/payment/request-payment'\n        try:\n            response = requests.post(",
+        "detail": "waxipay-backend.payments.paytek_service",
+        "documentation": {}
+    },
+    {
+        "label": "app_name",
+        "kind": 5,
+        "importPath": "waxipay-backend.payments.urls",
+        "description": "waxipay-backend.payments.urls",
+        "peekOfCode": "app_name = 'payments'\nurlpatterns = [\n    path('initiate/', views.initiate_payment, name='initiate'),\n    path('ipn/', views.payment_ipn, name='ipn'),\n    path('success/', views.payment_success, name='success'),\n    path('cancel/', views.payment_cancel, name='cancel'),\n]",
+        "detail": "waxipay-backend.payments.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "waxipay-backend.payments.urls",
+        "description": "waxipay-backend.payments.urls",
+        "peekOfCode": "urlpatterns = [\n    path('initiate/', views.initiate_payment, name='initiate'),\n    path('ipn/', views.payment_ipn, name='ipn'),\n    path('success/', views.payment_success, name='success'),\n    path('cancel/', views.payment_cancel, name='cancel'),\n]",
+        "detail": "waxipay-backend.payments.urls",
+        "documentation": {}
+    },
+    {
+        "label": "initiate_payment",
+        "kind": 2,
+        "importPath": "waxipay-backend.payments.views",
+        "description": "waxipay-backend.payments.views",
+        "peekOfCode": "def initiate_payment(request):\n    amount = request.data.get('amount')\n    description = request.data.get('description', 'Dépôt WaxiPay')\n    if not amount:\n        return Response(\n            {'success': False, 'error': 'Montant requis'},\n            status=status.HTTP_400_BAD_REQUEST\n        )\n    try:\n        amount = Decimal(amount)",
+        "detail": "waxipay-backend.payments.views",
+        "documentation": {}
+    },
+    {
+        "label": "payment_ipn",
+        "kind": 2,
+        "importPath": "waxipay-backend.payments.views",
+        "description": "waxipay-backend.payments.views",
+        "peekOfCode": "def payment_ipn(request):\n    if not PaytechService.verify_ipn(request):\n        logger.warning('Invalid PayTech IPN signature')\n        return Response(\n            {'error': 'Signature invalide'},\n            status=status.HTTP_403_FORBIDDEN\n        )\n    type_event = request.POST.get('type_event')\n    custom_field = json.loads(request.POST.get('custom_field', '{}'))\n    ref_command = request.POST.get('ref_command')",
+        "detail": "waxipay-backend.payments.views",
+        "documentation": {}
+    },
+    {
+        "label": "payment_success",
+        "kind": 2,
+        "importPath": "waxipay-backend.payments.views",
+        "description": "waxipay-backend.payments.views",
+        "peekOfCode": "def payment_success(request):\n    return Response({\n        'success': True,\n        'message': 'Paiement effectué avec succès. Vérification en cours...'\n    })\n@api_view(['GET'])\n@permission_classes([IsAuthenticated])\ndef payment_cancel(request):\n    return Response({\n        'success': False,",
+        "detail": "waxipay-backend.payments.views",
+        "documentation": {}
+    },
+    {
+        "label": "payment_cancel",
+        "kind": 2,
+        "importPath": "waxipay-backend.payments.views",
+        "description": "waxipay-backend.payments.views",
+        "peekOfCode": "def payment_cancel(request):\n    return Response({\n        'success': False,\n        'message': 'Paiement annulé'\n    })",
+        "detail": "waxipay-backend.payments.views",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "waxipay-backend.payments.views",
+        "description": "waxipay-backend.payments.views",
+        "peekOfCode": "logger = logging.getLogger(__name__)\n@api_view(['POST'])\n@permission_classes([IsAuthenticated])\ndef initiate_payment(request):\n    amount = request.data.get('amount')\n    description = request.data.get('description', 'Dépôt WaxiPay')\n    if not amount:\n        return Response(\n            {'success': False, 'error': 'Montant requis'},\n            status=status.HTTP_400_BAD_REQUEST",
+        "detail": "waxipay-backend.payments.views",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "waxipay-backend.transactions.migrations.0001_initial",
+        "description": "waxipay-backend.transactions.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Transaction',\n            fields=[\n                ('id', models.UUIDField(default=uuid.uuid4, editable=False, primary_key=True, serialize=False)),",
+        "detail": "waxipay-backend.transactions.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "TransactionsConfig",
+        "kind": 6,
+        "importPath": "waxipay-backend.transactions.apps",
+        "description": "waxipay-backend.transactions.apps",
+        "peekOfCode": "class TransactionsConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'transactions'",
+        "detail": "waxipay-backend.transactions.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Transaction",
+        "kind": 6,
+        "importPath": "waxipay-backend.transactions.models",
+        "description": "waxipay-backend.transactions.models",
+        "peekOfCode": "class Transaction(models.Model):\n    TRANSACTION_TYPES = [\n        ('payment_in', 'Paiement reçu'),\n        ('payment_out', 'Paiement envoyé'),\n        ('withdrawal', 'Retrait'),\n        ('deposit', 'Dépôt'),\n    ]\n    STATUS_CHOICES = [\n        ('pending', 'En attente'),\n        ('processing', 'En cours'),",
+        "detail": "waxipay-backend.transactions.models",
+        "documentation": {}
+    },
+    {
+        "label": "TransactionSerializer",
+        "kind": 6,
+        "importPath": "waxipay-backend.transactions.serializers",
+        "description": "waxipay-backend.transactions.serializers",
+        "peekOfCode": "class TransactionSerializer(serializers.ModelSerializer):\n    user_name = serializers.CharField(source='user.full_name', read_only=True)\n    amount_formatted = serializers.SerializerMethodField()\n    transaction_type_display = serializers.CharField(source='get_transaction_type_display', read_only=True)\n    payment_method_display = serializers.CharField(source='get_payment_method_display', read_only=True)\n    status_display = serializers.CharField(source='get_status_display', read_only=True)\n    class Meta:\n        model = Transaction\n        fields = [\n            'id', 'user', 'user_name', 'transaction_type', 'transaction_type_display',",
+        "detail": "waxipay-backend.transactions.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "app_name",
+        "kind": 5,
+        "importPath": "waxipay-backend.transactions.urls",
+        "description": "waxipay-backend.transactions.urls",
+        "peekOfCode": "app_name = 'transactions'\nurlpatterns = [\n    path('', views.TransactionListView.as_view(), name='list'),\n    path('<uuid:pk>/', views.TransactionDetailView.as_view(), name='detail'),\n    path('stats/', views.TransactionStatsView.as_view(), name='stats'),\n]",
+        "detail": "waxipay-backend.transactions.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "waxipay-backend.transactions.urls",
+        "description": "waxipay-backend.transactions.urls",
+        "peekOfCode": "urlpatterns = [\n    path('', views.TransactionListView.as_view(), name='list'),\n    path('<uuid:pk>/', views.TransactionDetailView.as_view(), name='detail'),\n    path('stats/', views.TransactionStatsView.as_view(), name='stats'),\n]",
+        "detail": "waxipay-backend.transactions.urls",
+        "documentation": {}
+    },
+    {
+        "label": "TransactionListView",
+        "kind": 6,
+        "importPath": "waxipay-backend.transactions.views",
+        "description": "waxipay-backend.transactions.views",
+        "peekOfCode": "class TransactionListView(generics.ListAPIView):\n    \"\"\"Liste des transactions avec filtres\"\"\"\n    serializer_class = TransactionSerializer\n    permission_classes = [IsAuthenticated]\n    def get_queryset(self):\n        queryset = Transaction.objects.filter(user=self.request.user)\n        transaction_type = self.request.query_params.get('type')\n        payment_method = self.request.query_params.get('payment_method')\n        status_filter = self.request.query_params.get('status')\n        date_from = self.request.query_params.get('date_from')",
+        "detail": "waxipay-backend.transactions.views",
+        "documentation": {}
+    },
+    {
+        "label": "TransactionDetailView",
+        "kind": 6,
+        "importPath": "waxipay-backend.transactions.views",
+        "description": "waxipay-backend.transactions.views",
+        "peekOfCode": "class TransactionDetailView(generics.RetrieveAPIView):\n    \"\"\"Détail d'une transaction\"\"\"\n    serializer_class = TransactionSerializer\n    permission_classes = [IsAuthenticated]\n    def get_queryset(self):\n        return Transaction.objects.filter(user=self.request.user)\nclass TransactionStatsView(APIView):\n    \"\"\"Statistiques des transactions\"\"\"\n    permission_classes = [IsAuthenticated]\n    def get(self, request):",
+        "detail": "waxipay-backend.transactions.views",
+        "documentation": {}
+    },
+    {
+        "label": "TransactionStatsView",
+        "kind": 6,
+        "importPath": "waxipay-backend.transactions.views",
+        "description": "waxipay-backend.transactions.views",
+        "peekOfCode": "class TransactionStatsView(APIView):\n    \"\"\"Statistiques des transactions\"\"\"\n    permission_classes = [IsAuthenticated]\n    def get(self, request):\n        user = request.user\n        total_received = Transaction.objects.filter(\n            user=user,\n            transaction_type='payment_in',\n            status='completed'\n        ).aggregate(total=Sum('amount'))['total'] or 0",
+        "detail": "waxipay-backend.transactions.views",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "waxipay-backend.waxipay_backend.asgi",
+        "description": "waxipay-backend.waxipay_backend.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "waxipay-backend.waxipay_backend.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "waxipay-backend.waxipay_backend.settings",
+        "description": "waxipay-backend.waxipay_backend.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-gfneb6#td+7d&99em-@ao+co3*ftwt2r-n1%!2j1)q(%5&3)08'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = ['localhost', '127.0.0.1', '4c21f1e8ea4c.ngrok-free.app']\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "waxipay-backend.waxipay_backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "waxipay-backend.waxipay_backend.settings",
+        "description": "waxipay-backend.waxipay_backend.settings",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-gfneb6#td+7d&99em-@ao+co3*ftwt2r-n1%!2j1)q(%5&3)08'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = ['localhost', '127.0.0.1', '4c21f1e8ea4c.ngrok-free.app']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "detail": "waxipay-backend.waxipay_backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "waxipay-backend.waxipay_backend.settings",
+        "description": "waxipay-backend.waxipay_backend.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = ['localhost', '127.0.0.1', '4c21f1e8ea4c.ngrok-free.app']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "waxipay-backend.waxipay_backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "waxipay-backend.waxipay_backend.settings",
+        "description": "waxipay-backend.waxipay_backend.settings",
+        "peekOfCode": "ALLOWED_HOSTS = ['localhost', '127.0.0.1', '4c21f1e8ea4c.ngrok-free.app']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'rest_framework',",
+        "detail": "waxipay-backend.waxipay_backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "waxipay-backend.waxipay_backend.settings",
+        "description": "waxipay-backend.waxipay_backend.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'rest_framework',\n    'rest_framework_simplejwt',\n    'corsheaders',",
+        "detail": "waxipay-backend.waxipay_backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "waxipay-backend.waxipay_backend.settings",
+        "description": "waxipay-backend.waxipay_backend.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'corsheaders.middleware.CorsMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]",
+        "detail": "waxipay-backend.waxipay_backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "waxipay-backend.waxipay_backend.settings",
+        "description": "waxipay-backend.waxipay_backend.settings",
+        "peekOfCode": "ROOT_URLCONF = 'waxipay_backend.urls'\nAUTH_USER_MODEL = 'accounts.User'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',",
+        "detail": "waxipay-backend.waxipay_backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_USER_MODEL",
+        "kind": 5,
+        "importPath": "waxipay-backend.waxipay_backend.settings",
+        "description": "waxipay-backend.waxipay_backend.settings",
+        "peekOfCode": "AUTH_USER_MODEL = 'accounts.User'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "waxipay-backend.waxipay_backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "waxipay-backend.waxipay_backend.settings",
+        "description": "waxipay-backend.waxipay_backend.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "waxipay-backend.waxipay_backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "waxipay-backend.waxipay_backend.settings",
+        "description": "waxipay-backend.waxipay_backend.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'waxipay_backend.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/4.2/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.postgresql',\n        'NAME': os.getenv('DB_NAME', 'waxipay_db'),\n        'USER': os.getenv('DB_USER', 'postgres'),\n        'PASSWORD': os.getenv('DB_PASSWORD', 'postgres'),\n        'HOST': os.getenv('DB_HOST', 'localhost'),",
+        "detail": "waxipay-backend.waxipay_backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "waxipay-backend.waxipay_backend.settings",
+        "description": "waxipay-backend.waxipay_backend.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.postgresql',\n        'NAME': os.getenv('DB_NAME', 'waxipay_db'),\n        'USER': os.getenv('DB_USER', 'postgres'),\n        'PASSWORD': os.getenv('DB_PASSWORD', 'postgres'),\n        'HOST': os.getenv('DB_HOST', 'localhost'),\n        'PORT': os.getenv('DB_PORT', '5432'),\n    }\n}",
+        "detail": "waxipay-backend.waxipay_backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "REST_FRAMEWORK",
+        "kind": 5,
+        "importPath": "waxipay-backend.waxipay_backend.settings",
+        "description": "waxipay-backend.waxipay_backend.settings",
+        "peekOfCode": "REST_FRAMEWORK = {\n    'DEFAULT_AUTHENTICATION_CLASSES': [\n        'rest_framework_simplejwt.authentication.JWTAuthentication',\n    ],\n    'DEFAULT_PERMISSION_CLASSES': [\n        'rest_framework.permissions.IsAuthenticated',\n    ],\n    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',\n    'PAGE_SIZE': 20,\n}",
+        "detail": "waxipay-backend.waxipay_backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SIMPLE_JWT",
+        "kind": 5,
+        "importPath": "waxipay-backend.waxipay_backend.settings",
+        "description": "waxipay-backend.waxipay_backend.settings",
+        "peekOfCode": "SIMPLE_JWT = {\n    'ACCESS_TOKEN_LIFETIME': timedelta(hours=24),\n    'REFRESH_TOKEN_LIFETIME': timedelta(days=30),\n    'ROTATE_REFRESH_TOKENS': True,\n    'BLACKLIST_AFTER_ROTATION': True,\n}\nLOGGING = {\n    'version': 1,\n    'disable_existing_loggers': False,\n    'handlers': {",
+        "detail": "waxipay-backend.waxipay_backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LOGGING",
+        "kind": 5,
+        "importPath": "waxipay-backend.waxipay_backend.settings",
+        "description": "waxipay-backend.waxipay_backend.settings",
+        "peekOfCode": "LOGGING = {\n    'version': 1,\n    'disable_existing_loggers': False,\n    'handlers': {\n        'console': {\n            'class': 'logging.StreamHandler',\n        },\n    },\n    'root': {\n        'handlers': ['console'],",
+        "detail": "waxipay-backend.waxipay_backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CORS_ALLOW_ALL_ORIGINS",
+        "kind": 5,
+        "importPath": "waxipay-backend.waxipay_backend.settings",
+        "description": "waxipay-backend.waxipay_backend.settings",
+        "peekOfCode": "CORS_ALLOW_ALL_ORIGINS = True\n# Password validation\n# https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },",
+        "detail": "waxipay-backend.waxipay_backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "waxipay-backend.waxipay_backend.settings",
+        "description": "waxipay-backend.waxipay_backend.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "waxipay-backend.waxipay_backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "waxipay-backend.waxipay_backend.settings",
+        "description": "waxipay-backend.waxipay_backend.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'fr-fr'\nTIME_ZONE = 'Africa/Dakar'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\nSTATIC_ROOT = BASE_DIR / 'staticfiles'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field",
+        "detail": "waxipay-backend.waxipay_backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "waxipay-backend.waxipay_backend.settings",
+        "description": "waxipay-backend.waxipay_backend.settings",
+        "peekOfCode": "TIME_ZONE = 'Africa/Dakar'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\nSTATIC_ROOT = BASE_DIR / 'staticfiles'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "waxipay-backend.waxipay_backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "waxipay-backend.waxipay_backend.settings",
+        "description": "waxipay-backend.waxipay_backend.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\nSTATIC_ROOT = BASE_DIR / 'staticfiles'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# Clés API PayTech",
+        "detail": "waxipay-backend.waxipay_backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "waxipay-backend.waxipay_backend.settings",
+        "description": "waxipay-backend.waxipay_backend.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\nSTATIC_ROOT = BASE_DIR / 'staticfiles'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# Clés API PayTech\nPAYTECH_API_KEY = \"112fdcd2f5798e746f3a8626d2bddf2720104ac95ea9cfdfac8c8304807036be\"",
+        "detail": "waxipay-backend.waxipay_backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "waxipay-backend.waxipay_backend.settings",
+        "description": "waxipay-backend.waxipay_backend.settings",
+        "peekOfCode": "STATIC_URL = 'static/'\nSTATIC_ROOT = BASE_DIR / 'staticfiles'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# Clés API PayTech\nPAYTECH_API_KEY = \"112fdcd2f5798e746f3a8626d2bddf2720104ac95ea9cfdfac8c8304807036be\"\nPAYTECH_API_SECRET = \"0f29497c19fe0a9292b2656ce007c064e405573199ea9cdd639ce60e567856d8\"\n# Environnement\n# 'test' pour développement / 'prod' pour production",
+        "detail": "waxipay-backend.waxipay_backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_ROOT",
+        "kind": 5,
+        "importPath": "waxipay-backend.waxipay_backend.settings",
+        "description": "waxipay-backend.waxipay_backend.settings",
+        "peekOfCode": "STATIC_ROOT = BASE_DIR / 'staticfiles'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# Clés API PayTech\nPAYTECH_API_KEY = \"112fdcd2f5798e746f3a8626d2bddf2720104ac95ea9cfdfac8c8304807036be\"\nPAYTECH_API_SECRET = \"0f29497c19fe0a9292b2656ce007c064e405573199ea9cdd639ce60e567856d8\"\n# Environnement\n# 'test' pour développement / 'prod' pour production\nPAYTECH_ENV = \"test\"",
+        "detail": "waxipay-backend.waxipay_backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "waxipay-backend.waxipay_backend.settings",
+        "description": "waxipay-backend.waxipay_backend.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# Clés API PayTech\nPAYTECH_API_KEY = \"112fdcd2f5798e746f3a8626d2bddf2720104ac95ea9cfdfac8c8304807036be\"\nPAYTECH_API_SECRET = \"0f29497c19fe0a9292b2656ce007c064e405573199ea9cdd639ce60e567856d8\"\n# Environnement\n# 'test' pour développement / 'prod' pour production\nPAYTECH_ENV = \"test\"\n# URLs de redirection et IPN (ngrok ou domaine public HTTPS)\nPAYTECH_SUCCESS_URL = \"https://4c21f1e8ea4c.ngrok-free.app/payments/success/\"\nPAYTECH_CANCEL_URL = \"https://4c21f1e8ea4c.ngrok-free.app/payments/cancel/\"",
+        "detail": "waxipay-backend.waxipay_backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "PAYTECH_API_KEY",
+        "kind": 5,
+        "importPath": "waxipay-backend.waxipay_backend.settings",
+        "description": "waxipay-backend.waxipay_backend.settings",
+        "peekOfCode": "PAYTECH_API_KEY = \"112fdcd2f5798e746f3a8626d2bddf2720104ac95ea9cfdfac8c8304807036be\"\nPAYTECH_API_SECRET = \"0f29497c19fe0a9292b2656ce007c064e405573199ea9cdd639ce60e567856d8\"\n# Environnement\n# 'test' pour développement / 'prod' pour production\nPAYTECH_ENV = \"test\"\n# URLs de redirection et IPN (ngrok ou domaine public HTTPS)\nPAYTECH_SUCCESS_URL = \"https://4c21f1e8ea4c.ngrok-free.app/payments/success/\"\nPAYTECH_CANCEL_URL = \"https://4c21f1e8ea4c.ngrok-free.app/payments/cancel/\"\nPAYTECH_IPN_URL = \"https://4c21f1e8ea4c.ngrok-free.app/payments/ipn/\"\n# Base URL PayTech",
+        "detail": "waxipay-backend.waxipay_backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "PAYTECH_API_SECRET",
+        "kind": 5,
+        "importPath": "waxipay-backend.waxipay_backend.settings",
+        "description": "waxipay-backend.waxipay_backend.settings",
+        "peekOfCode": "PAYTECH_API_SECRET = \"0f29497c19fe0a9292b2656ce007c064e405573199ea9cdd639ce60e567856d8\"\n# Environnement\n# 'test' pour développement / 'prod' pour production\nPAYTECH_ENV = \"test\"\n# URLs de redirection et IPN (ngrok ou domaine public HTTPS)\nPAYTECH_SUCCESS_URL = \"https://4c21f1e8ea4c.ngrok-free.app/payments/success/\"\nPAYTECH_CANCEL_URL = \"https://4c21f1e8ea4c.ngrok-free.app/payments/cancel/\"\nPAYTECH_IPN_URL = \"https://4c21f1e8ea4c.ngrok-free.app/payments/ipn/\"\n# Base URL PayTech\nPAYTECH_BASE_URL = \"https://paytech.sn/api\"",
+        "detail": "waxipay-backend.waxipay_backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "PAYTECH_ENV",
+        "kind": 5,
+        "importPath": "waxipay-backend.waxipay_backend.settings",
+        "description": "waxipay-backend.waxipay_backend.settings",
+        "peekOfCode": "PAYTECH_ENV = \"test\"\n# URLs de redirection et IPN (ngrok ou domaine public HTTPS)\nPAYTECH_SUCCESS_URL = \"https://4c21f1e8ea4c.ngrok-free.app/payments/success/\"\nPAYTECH_CANCEL_URL = \"https://4c21f1e8ea4c.ngrok-free.app/payments/cancel/\"\nPAYTECH_IPN_URL = \"https://4c21f1e8ea4c.ngrok-free.app/payments/ipn/\"\n# Base URL PayTech\nPAYTECH_BASE_URL = \"https://paytech.sn/api\"",
+        "detail": "waxipay-backend.waxipay_backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "PAYTECH_SUCCESS_URL",
+        "kind": 5,
+        "importPath": "waxipay-backend.waxipay_backend.settings",
+        "description": "waxipay-backend.waxipay_backend.settings",
+        "peekOfCode": "PAYTECH_SUCCESS_URL = \"https://4c21f1e8ea4c.ngrok-free.app/payments/success/\"\nPAYTECH_CANCEL_URL = \"https://4c21f1e8ea4c.ngrok-free.app/payments/cancel/\"\nPAYTECH_IPN_URL = \"https://4c21f1e8ea4c.ngrok-free.app/payments/ipn/\"\n# Base URL PayTech\nPAYTECH_BASE_URL = \"https://paytech.sn/api\"",
+        "detail": "waxipay-backend.waxipay_backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "PAYTECH_CANCEL_URL",
+        "kind": 5,
+        "importPath": "waxipay-backend.waxipay_backend.settings",
+        "description": "waxipay-backend.waxipay_backend.settings",
+        "peekOfCode": "PAYTECH_CANCEL_URL = \"https://4c21f1e8ea4c.ngrok-free.app/payments/cancel/\"\nPAYTECH_IPN_URL = \"https://4c21f1e8ea4c.ngrok-free.app/payments/ipn/\"\n# Base URL PayTech\nPAYTECH_BASE_URL = \"https://paytech.sn/api\"",
+        "detail": "waxipay-backend.waxipay_backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "PAYTECH_IPN_URL",
+        "kind": 5,
+        "importPath": "waxipay-backend.waxipay_backend.settings",
+        "description": "waxipay-backend.waxipay_backend.settings",
+        "peekOfCode": "PAYTECH_IPN_URL = \"https://4c21f1e8ea4c.ngrok-free.app/payments/ipn/\"\n# Base URL PayTech\nPAYTECH_BASE_URL = \"https://paytech.sn/api\"",
+        "detail": "waxipay-backend.waxipay_backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "PAYTECH_BASE_URL",
+        "kind": 5,
+        "importPath": "waxipay-backend.waxipay_backend.settings",
+        "description": "waxipay-backend.waxipay_backend.settings",
+        "peekOfCode": "PAYTECH_BASE_URL = \"https://paytech.sn/api\"",
+        "detail": "waxipay-backend.waxipay_backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "schema_view",
+        "kind": 5,
+        "importPath": "waxipay-backend.waxipay_backend.urls",
+        "description": "waxipay-backend.waxipay_backend.urls",
+        "peekOfCode": "schema_view = get_schema_view(\n   openapi.Info(\n      title=\"WaxiPay API\",\n      default_version='v1',\n      description=\"API de paiement mobile pour le Sénégal avec intégration PayTek\",\n      contact=openapi.Contact(email=\"contact@waxipay.sn\"),\n      license=openapi.License(name=\"Propriétaire\"),\n   ),\n   public=True,\n   permission_classes=[permissions.AllowAny],",
+        "detail": "waxipay-backend.waxipay_backend.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "waxipay-backend.waxipay_backend.urls",
+        "description": "waxipay-backend.waxipay_backend.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('api/auth/', include('accounts.urls')),\n    path('api/transactions/', include('transactions.urls')),\n    path('api/payments/', include('payments.urls')),\n    # Documentation API\n    path('api/docs/', schema_view.with_ui('swagger', cache_timeout=0), name='api-docs'),\n    path('api/redoc/', schema_view.with_ui('redoc', cache_timeout=0), name='api-redoc'),\n]",
+        "detail": "waxipay-backend.waxipay_backend.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "waxipay-backend.waxipay_backend.wsgi",
+        "description": "waxipay-backend.waxipay_backend.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "waxipay-backend.waxipay_backend.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "waxipay-backend.manage",
+        "description": "waxipay-backend.manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'waxipay_backend.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "waxipay-backend.manage",
+        "documentation": {}
+    },
+    {
+        "label": "_Known",
+        "kind": 6,
+        "importPath": "waxipay-mobile.node_modules.flatted.python.flatted",
+        "description": "waxipay-mobile.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _Known:\n    def __init__(self):\n        self.key = []\n        self.value = []\nclass _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    keys = []\n    i = 0",
+        "detail": "waxipay-mobile.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "_String",
+        "kind": 6,
+        "importPath": "waxipay-mobile.node_modules.flatted.python.flatted",
+        "description": "waxipay-mobile.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    keys = []\n    i = 0\n    for _ in value:\n        keys.append(i)\n        i += 1\n    return keys",
+        "detail": "waxipay-mobile.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "parse",
+        "kind": 2,
+        "importPath": "waxipay-mobile.node_modules.flatted.python.flatted",
+        "description": "waxipay-mobile.node_modules.flatted.python.flatted",
+        "peekOfCode": "def parse(value, *args, **kwargs):\n    json = _json.loads(value, *args, **kwargs)\n    wrapped = []\n    for value in json:\n        wrapped.append(_wrap(value))\n    input = []\n    for value in wrapped:\n        if isinstance(value, _String):\n            input.append(value.value)\n        else:",
+        "detail": "waxipay-mobile.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "stringify",
+        "kind": 2,
+        "importPath": "waxipay-mobile.node_modules.flatted.python.flatted",
+        "description": "waxipay-mobile.node_modules.flatted.python.flatted",
+        "peekOfCode": "def stringify(value, *args, **kwargs):\n    known = _Known()\n    input = []\n    output = []\n    i = int(_index(known, input, value))\n    while i < len(input):\n        output.append(_transform(known, input, input[i]))\n        i += 1\n    return _json.dumps(output, *args, **kwargs)",
+        "detail": "waxipay-mobile.node_modules.flatted.python.flatted",
+        "documentation": {}
+    }
+]
