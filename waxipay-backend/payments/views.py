@@ -1,21 +1,15 @@
 from rest_framework.decorators import api_view, permission_classes
 from rest_framework.permissions import IsAuthenticated, AllowAny
 from rest_framework.response import Response
-from rest_framework import status
 from django.db import transaction as db_transaction
 from django.utils import timezone
 from django.views.decorators.csrf import csrf_exempt
 from decimal import Decimal
 import uuid
-import json
-import logging
+import requests
 
 from transactions.models import Transaction
 from accounts.models import Wallet
-from .paytek_service import PaytechService
-
-logger = logging.getLogger(__name__)
-
 
 @api_view(['POST'])
 @permission_classes([IsAuthenticated])
@@ -24,22 +18,17 @@ def initiate_payment(request):
     description = request.data.get('description', 'Dépôt WaxiPay')
     
     if not amount:
-        return Response(
-            {'success': False, 'error': 'Montant requis'},
-            status=status.HTTP_400_BAD_REQUEST
-        )
+        return Response({'success': False, 'error': 'Montant requis'}, status=400)
     
     try:
         amount = Decimal(amount)
         if amount <= 0:
-            raise ValueError("Le montant doit être positif")
-    except (ValueError, TypeError):
-        return Response(
-            {'success': False, 'error': 'Montant invalide'},
-            status=status.HTTP_400_BAD_REQUEST
-        )
+            raise ValueError()
+    except:
+        return Response({'success': False, 'error': 'Montant invalide'}, status=400)
     
     reference = f"WXP-{uuid.uuid4().hex[:12].upper()}"
+    
     transaction_obj = Transaction.objects.create(
         user=request.user,
         transaction_type='deposit',
@@ -50,65 +39,51 @@ def initiate_payment(request):
         status='pending'
     )
     
-    custom_field = {
-        'transaction_id': str(transaction_obj.id),
-        'user_id': str(request.user.id),
+    paytech_data = {
+        'item_name': description,
+        'item_price': int(amount),
+        'currency': 'XOF',
+        'ref_command': reference,
+        'command_name': description,
+        'env': 'test',
+        'custom_field': str(transaction_obj.id),
+        'success_url': 'https://072a8319c6bb.ngrok-free.app/payments/success/',
+        'cancel_url': 'https://072a8319c6bb.ngrok-free.app/payments/cancel/',
+        'ipn_url': 'https://072a8319c6bb.ngrok-free.app/payments/ipn/',
     }
     
-    payment_method = "Orange Money,Wave,Free Money,Carte Bancaire"
-    
-    response = PaytechService.request_payment(
-        item_name=description,
-        item_price=int(amount),
-        ref_command=reference,
-        custom_field=custom_field,
-        payment_method=payment_method,
-        user=request.user
+    paytech_response = requests.post(
+        'https://paytech.sn/api/payment/request-payment',
+        json=paytech_data,
+        headers={
+            'API_KEY': '99b49f75593e3466ed14d78001c23b3daf797e508a455aeec1d91aa702c05f16',
+            'API_SECRET': 'a2a1f1f2c64a5ff2a353fe6f07899797faafef71228be10343ffff53cea72e37',
+            'Content-Type': 'application/json'
+        }
     )
     
-    if response.get('success') == 1:
-        transaction_obj.external_reference = response.get('token')
-        transaction_obj.status = 'processing'
-        transaction_obj.save()
-        
+    if paytech_response.status_code == 200:
+        response_data = paytech_response.json()
         return Response({
-            'success': True,
-            'message': 'Paiement initié avec succès',
-            'data': {
-                'transaction_id': str(transaction_obj.id),
-                'reference': reference,
-                'payment_url': response.get('redirect_url') or response.get('redirectUrl'),
-                'external_reference': response.get('token')
-            }
+            'payment_url': response_data.get('redirect_url'),
+            'token': response_data.get('token'),
+            'amount': paytech_data['item_price'],
+            'reference': paytech_data['ref_command']
         })
-    else:
-        transaction_obj.status = 'failed'
-        transaction_obj.save()
-        return Response(
-            {
-                'success': False,
-                'error': response.get('message', 'Échec de l\'initialisation du paiement')
-            },
-            status=status.HTTP_500_INTERNAL_SERVER_ERROR
-        )
+    
+    return Response({
+        'error': 'Erreur lors de la création du paiement PayTech',
+        'details': paytech_response.text
+    }, status=500)
 
 
 @csrf_exempt
 @api_view(['POST'])
 @permission_classes([AllowAny])
 def payment_ipn(request):
-    if not PaytechService.verify_ipn(request):
-        logger.warning('Invalid PayTech IPN signature')
-        return Response(
-            {'error': 'Signature invalide'},
-            status=status.HTTP_403_FORBIDDEN
-        )
-    
     type_event = request.POST.get('type_event')
-    custom_field = json.loads(request.POST.get('custom_field', '{}'))
-    ref_command = request.POST.get('ref_command')
-    
-    transaction_id = custom_field.get('transaction_id')
+    custom_field = request.POST.get('custom_field', '')
+    transaction_id = custom_field
     
     try:
         transaction_obj = Transaction.objects.get(id=transaction_id)
@@ -122,37 +97,24 @@ def payment_ipn(request):
                 wallet = transaction_obj.user.wallet
                 wallet.balance += transaction_obj.amount
                 wallet.save()
-                
-                logger.info(f'Transaction {ref_command} completed via IPN')
         
         elif type_event == 'sale_canceled':
             transaction_obj.status = 'cancelled'
             transaction_obj.save()
-            logger.info(f'Transaction {ref_command} cancelled via IPN')
         
-        return Response({'message': 'IPN OK'}, status=status.HTTP_200_OK)
+        return Response({'message': 'IPN OK'})
         
     except Transaction.DoesNotExist:
-        logger.error(f'Transaction not found: {transaction_id}')
-        return Response(
-            {'error': 'Transaction introuvable'},
-            status=status.HTTP_404_NOT_FOUND
-        )
+        return Response({'error': 'Transaction introuvable'}, status=404)
 
 
 @api_view(['GET'])
 @permission_classes([IsAuthenticated])
 def payment_success(request):
-    return Response({
-        'success': True,
-        'message': 'Paiement effectué avec succès. Vérification en cours...'
-    })
+    return Response({'success': True, 'message': 'Paiement effectué avec succès'})
 
 
 @api_view(['GET'])
 @permission_classes([IsAuthenticated])
 def payment_cancel(request):
-    return Response({
-        'success': False,
-        'message': 'Paiement annulé'
-    })
+    return Response({'success': False, 'message': 'Paiement annulé'})

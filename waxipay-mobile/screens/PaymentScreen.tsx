@@ -42,15 +42,14 @@ const PaymentScreen = ({ navigation }: any) => {
         })
       ).unwrap();
 
-      if (result.success && result.data.payment_url) {
-        // Ouvrir la page PayTek dans le navigateur
-        const supported = await Linking.canOpenURL(result.data.payment_url);
+      if (result.payment_url) {
+        const supported = await Linking.canOpenURL(result.payment_url);
         if (supported) {
-          await Linking.openURL(result.data.payment_url);
+          await Linking.openURL(result.payment_url);
 
           Alert.alert(
             "Paiement en cours",
-            "Vous allez être redirigé vers PayTek pour choisir votre méthode de paiement",
+            "Vous allez être redirigé vers PayTech",
             [{ text: "OK", onPress: () => navigation.goBack() }]
           );
         } else {

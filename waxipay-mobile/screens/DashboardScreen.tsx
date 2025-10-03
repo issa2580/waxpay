@@ -19,7 +19,7 @@ const DashboardScreen = ({ navigation }: any) => {
   const dispatch = useAppDispatch();
   const { user } = useAppSelector((state) => state.auth);
   const { wallet } = useAppSelector((state) => state.wallet);
-  const { transactions, loading } = useAppSelector(
+  const { transactions = [], loading } = useAppSelector(
     (state) => state.transactions
   );
 
@@ -131,52 +131,53 @@ const DashboardScreen = ({ navigation }: any) => {
           </TouchableOpacity>
         </View>
 
-        {transactions.slice(0, 3).map((transaction) => (
-          <View key={transaction.id} style={styles.transactionCard}>
-            <View style={styles.transactionIcon}>
-              <Text style={styles.transactionEmoji}>
-                {transaction.transaction_type === "payment_in" ||
-                transaction.transaction_type === "deposit"
-                  ? "📥"
-                  : "📤"}
-              </Text>
-            </View>
-            <View style={styles.transactionDetails}>
-              <Text style={styles.transactionDescription}>
-                {transaction.description ||
-                  transaction.transaction_type_display}
-              </Text>
-              <Text style={styles.transactionDate}>
-                {new Date(transaction.created_at).toLocaleString("fr-FR")}
-              </Text>
-            </View>
-            <View style={styles.transactionRight}>
-              <Text
-                style={[
-                  styles.transactionAmount,
-                  {
-                    color:
-                      transaction.transaction_type === "payment_in" ||
-                      transaction.transaction_type === "deposit"
-                        ? Colors.success
-                        : Colors.error,
-                  },
-                ]}
-              >
-                {transaction.transaction_type === "payment_in" ||
-                transaction.transaction_type === "deposit"
-                  ? "+"
-                  : "-"}
-                {transaction.amount_formatted} F
-              </Text>
-              <View style={styles.transactionBadge}>
-                <Text style={styles.transactionMethod}>
-                  {transaction.payment_method_display}
+        {Array.isArray(transactions) &&
+          transactions.slice(0, 3).map((transaction) => (
+            <View key={transaction.id} style={styles.transactionCard}>
+              <View style={styles.transactionIcon}>
+                <Text style={styles.transactionEmoji}>
+                  {transaction.transaction_type === "payment_in" ||
+                  transaction.transaction_type === "deposit"
+                    ? "📥"
+                    : "📤"}
                 </Text>
               </View>
+              <View style={styles.transactionDetails}>
+                <Text style={styles.transactionDescription}>
+                  {transaction.description ||
+                    transaction.transaction_type_display}
+                </Text>
+                <Text style={styles.transactionDate}>
+                  {new Date(transaction.created_at).toLocaleString("fr-FR")}
+                </Text>
+              </View>
+              <View style={styles.transactionRight}>
+                <Text
+                  style={[
+                    styles.transactionAmount,
+                    {
+                      color:
+                        transaction.transaction_type === "payment_in" ||
+                        transaction.transaction_type === "deposit"
+                          ? Colors.success
+                          : Colors.error,
+                    },
+                  ]}
+                >
+                  {transaction.transaction_type === "payment_in" ||
+                  transaction.transaction_type === "deposit"
+                    ? "+"
+                    : "-"}
+                  {transaction.amount_formatted} F
+                </Text>
+                <View style={styles.transactionBadge}>
+                  <Text style={styles.transactionMethod}>
+                    {transaction.payment_method_display}
+                  </Text>
+                </View>
+              </View>
             </View>
-          </View>
-        ))}
+          ))}
       </ScrollView>
     </View>
   );

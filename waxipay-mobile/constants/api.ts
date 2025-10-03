@@ -2,7 +2,7 @@
 // constants/api.ts
 // ===========================================
 export const API_BASE_URL = __DEV__
-  ? "https://4c21f1e8ea4c.ngrok-free.app/api"
+  ? "https://072a8319c6bb.ngrok-free.app/api"
   : "https://api.waxipay.sn/api";
 
 export const API_ENDPOINTS = {
